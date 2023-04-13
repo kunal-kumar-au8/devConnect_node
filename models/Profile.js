@@ -19,7 +19,7 @@ const ProfileSchema = new mongoose.Schema({
     required: true,
   },
   skills: {
-    type: [Strings],
+    type: [String],
     required: true,
   },
   bio: {
@@ -111,3 +111,4 @@ const ProfileSchema = new mongoose.Schema({
 });
 
 module.exports = Profile = mongoose.model("profile", ProfileSchema);
+ 
